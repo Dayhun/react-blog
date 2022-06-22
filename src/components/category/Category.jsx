@@ -1,11 +1,11 @@
 import './category.css'
 
-export default function Category() {
+export default function Category({ category }) {
     return (
-        <dl class="category">
-            <dt class="a11y-hidden">Category</dt>
-            <dd>Life</dd>
-            <dd>Style</dd>
+        <dl className="category">
+            <dt className="a11y-hidden">Category</dt>
+            <dd>{category[0]}</dd>
+            <dd>{category[1]}</dd>
         </dl>
     );
 }

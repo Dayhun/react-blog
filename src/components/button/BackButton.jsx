@@ -1,9 +1,10 @@
 import './button.css'
+import { Link } from 'react-router-dom'
 
 export default function BackButton() {
     return (
-        <a href="./" class="btn-back">
-            <span class="a11y-hidden">Back</span>
-        </a>
+        <Link to="/" className='btn-back'>
+            <span className='a11y-hidden'>back</span>
+        </Link>
     )
 }

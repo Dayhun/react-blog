@@ -11,16 +11,16 @@ import DeleteButton from '../button/DeleteButton';
 
 export default function View() {
     return (
-        <div class="view">
-            <div class="max-width">
-                <section class="wrap-box">
-                    <div class="inner">
+        <div className="view">
+            <div className="max-width">
+                <section className="wrap-box">
+                    <div className="inner">
                         <Author />
                         <Category />
                         <ViewTitle />
                         <hr />
                         <ViewContents />
-                        <div class="btn-group">
+                        <div className="btn-group">
                             <ModifyButton />
                             <DeleteButton />
                         </div>

@@ -5,7 +5,7 @@ import Banner from "../components/banner/Banner";
 import Main from "../components/main/Main";
 import Footer from "../components/footer/Footer";
 
-export default function Homepages() {
+export default function Homepage() {
     return (
         <div>
             <GlobalStyles />

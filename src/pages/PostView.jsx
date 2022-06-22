@@ -4,7 +4,7 @@ import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import View from "../components/view/View";
 
-function PostView() {
+export default function PostView() {
     return (
         <>
             <Header />
@@ -12,7 +12,5 @@ function PostView() {
             <View />
             <Footer />
         </>
-    );
+    )
 }
-
-export default PostView;

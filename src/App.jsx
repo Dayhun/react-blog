@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Homepages from "./pages/Homepage";
+import Homepage from "./pages/Homepage";
 import PostView from "./pages/PostView";
 
 
@@ -9,7 +9,7 @@ function App() {
 		<>
 			<BrowserRouter>
 				<Switch>
-					<Route path="/" exact component={Homepages} />
+					<Route path="/" exact component={Homepage} />
 					<Route path="/postview" component={PostView} />
 				</Switch>
 			</BrowserRouter>
