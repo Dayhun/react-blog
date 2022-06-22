@@ -1,20 +1,19 @@
 import React from "react";
-import GlobalStyles from "./components/GlobalStyles"
-import Header from "./components/header/Header";
-import Banner from "./components/banner/Banner";
-import Main from "./components/main/Main";
-import Footer from "./components/footer/Footer";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Homepages from "./pages/Homepage";
+import PostView from "./pages/PostView";
 
 
 function App() {
 	return (
-		<div>
-			<GlobalStyles />
-			<Header />
-			<Banner />
-			<Main />
-			<Footer />
-		</div>
+		<>
+			<BrowserRouter>
+				<Switch>
+					<Route path="/" exact component={Homepages} />
+					<Route path="/postview" component={PostView} />
+				</Switch>
+			</BrowserRouter>
+		</>
 	);
 }
 
