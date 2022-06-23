@@ -8,8 +8,8 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Switch>
+				<Route path="/postview" exact component={PostView} />
 				<Route path="/" exact component={Homepage} />
-				<Route path="/postview" component={PostView} />
 			</Switch>
 		</BrowserRouter>
 	);

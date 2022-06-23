@@ -1,0 +1,11 @@
+.view .wrap-box .author-wrap {
+    height: 6.4rem;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 640px) {
+    .view .wrap-box .author-wrap {
+        margin-bottom: 1rem;
+        padding-left: 3rem;
+    }
+}

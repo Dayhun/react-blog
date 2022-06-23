@@ -7,12 +7,12 @@ import View from "../components/view/View";
 
 export default function PostView() {
     return (
-        <>
+        <div>
             <GlobalStyles />
             <Header />
             <ViewBanner />
             <View />
             <Footer />
-        </>
+        </div>
     );
 }

@@ -16,7 +16,7 @@ export default function View() {
                 <section className="wrap-box">
                     <div className="inner">
                         <Author />
-                        <Category />
+                        {/* <Category /> */}
                         <ViewTitle />
                         <hr />
                         <ViewContents />
